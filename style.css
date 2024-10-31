@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.top-parent {
+  padding: 15px 0;
+}
+.top-sons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #de2e54;
+}
+.top-button {
+  width: 189px;
+  color: #de2e54;
+  text-transform: uppercase;
+  background-color: transparent;
+  height: 47px;
+  border-radius: 10px;
+  border: 2px solid #de2e54;
+}
+.top-button:hover {
+  background-color: #de2e54;
+  color: white;
+}
+.bg {
+  background-image: url("./image\ 4\ \(3\).png");
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  width: 500px;
+  color: white;
+  font-size: 30px;
+}
+.button-left {
+  width: 189px;
+  height: 47px;
+  margin-top: 100px;
+  border: 1px solid red;
+  background-color: hsla(0, 0%, 69%, 0.404);
+  color: white;
+  border-radius: 10px;
+}
+
+.button-left:hover {
+  background-color: #de2e54cc;
+}
+.img-right {
+  margin-top: 47px;
+}
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.xizmatlar-parent {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.xizmatlar-right {
+  max-width: 600px;
+}
+.xizmatlar-right h2 {
+  text-align: start;
+  margin-bottom: 30px;
+}
+.xizmatlar-right p {
+  font-weight: 100;
+}
+.bg123 {
+  height: 600px;
+  background-color: aqua;
+}
+h4 {
+  text-align: center;
+  font-size: 70px;
+}
+.niz-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+}
+form {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+input {
+  width: 300px;
+  padding: 15px 20px;
+}
+.top-parent1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.top-sonsleft {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.top-sonsright {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+footer {
+  background-color: black;
+  border: 3px solid yellow;
+}
+.c {
+  color: white;
+}
